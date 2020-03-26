@@ -1,0 +1,269 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "FSharp.Core/4.7.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FSharp.Core.dll": {}
+        },
+        "resource": {
+          "lib/netstandard2.0/cs/FSharp.Core.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/netstandard2.0/de/FSharp.Core.resources.dll": {
+            "locale": "de"
+          },
+          "lib/netstandard2.0/es/FSharp.Core.resources.dll": {
+            "locale": "es"
+          },
+          "lib/netstandard2.0/fr/FSharp.Core.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netstandard2.0/it/FSharp.Core.resources.dll": {
+            "locale": "it"
+          },
+          "lib/netstandard2.0/ja/FSharp.Core.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/netstandard2.0/ko/FSharp.Core.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/netstandard2.0/pl/FSharp.Core.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netstandard2.0/ru/FSharp.Core.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/netstandard2.0/tr/FSharp.Core.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Suave/2.5.6": {
+        "type": "package",
+        "dependencies": {
+          "FSharp.Core": "4.3.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/Suave.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Suave.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FSharp.Core/4.7.0": {
+      "sha512": "6Bf2qzSCaJoP6tTfO+a5muUS7QbyJANqSut73zQvwQ9It5P0ITz9VKseeia2ofco30c55EQ0jA2wf2+A2gpGnw==",
+      "type": "package",
+      "path": "fsharp.core/4.7.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fsharp.core.4.7.0.nupkg.sha512",
+        "fsharp.core.nuspec",
+        "lib/net45/FSharp.Core.dll",
+        "lib/net45/FSharp.Core.optdata",
+        "lib/net45/FSharp.Core.sigdata",
+        "lib/net45/FSharp.Core.xml",
+        "lib/net45/cs/FSharp.Core.resources.dll",
+        "lib/net45/de/FSharp.Core.resources.dll",
+        "lib/net45/es/FSharp.Core.resources.dll",
+        "lib/net45/fr/FSharp.Core.resources.dll",
+        "lib/net45/it/FSharp.Core.resources.dll",
+        "lib/net45/ja/FSharp.Core.resources.dll",
+        "lib/net45/ko/FSharp.Core.resources.dll",
+        "lib/net45/pl/FSharp.Core.resources.dll",
+        "lib/net45/pt-BR/FSharp.Core.resources.dll",
+        "lib/net45/ru/FSharp.Core.resources.dll",
+        "lib/net45/tr/FSharp.Core.resources.dll",
+        "lib/net45/zh-Hans/FSharp.Core.resources.dll",
+        "lib/net45/zh-Hant/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/FSharp.Core.dll",
+        "lib/netstandard2.0/FSharp.Core.optdata",
+        "lib/netstandard2.0/FSharp.Core.sigdata",
+        "lib/netstandard2.0/FSharp.Core.xml",
+        "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/de/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/es/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/fr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/it/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ja/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ko/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pl/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/pt-BR/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/ru/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/tr/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hans/FSharp.Core.resources.dll",
+        "lib/netstandard2.0/zh-Hant/FSharp.Core.resources.dll"
+      ]
+    },
+    "Suave/2.5.6": {
+      "sha512": "3Cusxs8m9JxzfF6W8zsSVNTys/lP0gmMmspvCXSxouuK8EjQNmUS4CJmFgJkftsZj0f9z5h3+JfUWzVyBS3OsA==",
+      "type": "package",
+      "path": "suave/2.5.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Suave.dll",
+        "lib/net461/Suave.pdb",
+        "lib/net461/Suave.xml",
+        "lib/netstandard2.0/Suave.dll",
+        "lib/netstandard2.0/Suave.pdb",
+        "lib/netstandard2.0/Suave.xml",
+        "src/Suave/AssemblyInfo.fs",
+        "src/Suave/Authentication.fs",
+        "src/Suave/Authentication.fsi",
+        "src/Suave/Combinators.fs",
+        "src/Suave/Combinators.fsi",
+        "src/Suave/Compression.fs",
+        "src/Suave/ConnectionFacade.fs",
+        "src/Suave/Cookie.fs",
+        "src/Suave/Cookie.fsi",
+        "src/Suave/CookieSerialiser.fs",
+        "src/Suave/DefaultTlsProvider.fs",
+        "src/Suave/Globals.fs",
+        "src/Suave/Headers.fs",
+        "src/Suave/Http.fs",
+        "src/Suave/Http.fsi",
+        "src/Suave/HttpOutput.fs",
+        "src/Suave/Json.fs",
+        "src/Suave/Model.fs",
+        "src/Suave/Native.fs",
+        "src/Suave/Operators.fs",
+        "src/Suave/Owin.fs",
+        "src/Suave/ParsingAndControl.fs",
+        "src/Suave/Sockets/AsyncSocket.fs",
+        "src/Suave/Sockets/AsyncUserToken.fs",
+        "src/Suave/Sockets/BufferManager.fs",
+        "src/Suave/Sockets/ConcurrentPool.fs",
+        "src/Suave/Sockets/Connection.fs",
+        "src/Suave/Sockets/ITransport.fs",
+        "src/Suave/Sockets/SocketBinding.fs",
+        "src/Suave/Sockets/SocketMonad.fs",
+        "src/Suave/Sockets/SocketOp.fs",
+        "src/Suave/Sockets/TcpTransport.fs",
+        "src/Suave/Sockets/TransportStream.fs",
+        "src/Suave/Sscanf.fs",
+        "src/Suave/State.fs",
+        "src/Suave/SuaveConfig.fs",
+        "src/Suave/Tcp.fs",
+        "src/Suave/TcpServerFactory.fs",
+        "src/Suave/Utils/ASCII.fs",
+        "src/Suave/Utils/Aether.fs",
+        "src/Suave/Utils/AsyncExtensions.fs",
+        "src/Suave/Utils/AsyncResultCell.fs",
+        "src/Suave/Utils/Bytes.fs",
+        "src/Suave/Utils/Choice.fs",
+        "src/Suave/Utils/Collections.fs",
+        "src/Suave/Utils/Compression.fs",
+        "src/Suave/Utils/Crypto.fs",
+        "src/Suave/Utils/CultureInfoCache.fs",
+        "src/Suave/Utils/Logging.fs",
+        "src/Suave/Utils/OpenMemoryStream.fs",
+        "src/Suave/Utils/Parse.fs",
+        "src/Suave/Utils/Parsing.fs",
+        "src/Suave/Utils/Property.fs",
+        "src/Suave/Utils/RangedStream.fs",
+        "src/Suave/Utils/ThreadSafeRandom.fs",
+        "src/Suave/Utils/TraceHeader.fs",
+        "src/Suave/Utils/YoLo.fs",
+        "src/Suave/Web.fs",
+        "src/Suave/WebPart.fs",
+        "src/Suave/WebPart.fsi",
+        "src/Suave/WebSocket.fs",
+        "suave.2.5.6.nupkg.sha512",
+        "suave.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "FSharp.Core >= 4.7.0",
+      "Suave >= 2.5.6"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\haibi\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Alternate Desktop\\FSharpWebsite\\FSharpWebsite\\SampleWebsite1\\SampleWebsite1\\SampleWebsite1.fsproj",
+      "projectName": "SampleWebsite1",
+      "projectPath": "D:\\Alternate Desktop\\FSharpWebsite\\FSharpWebsite\\SampleWebsite1\\SampleWebsite1\\SampleWebsite1.fsproj",
+      "packagesPath": "C:\\Users\\haibi\\.nuget\\packages\\",
+      "outputPath": "D:\\Alternate Desktop\\FSharpWebsite\\FSharpWebsite\\SampleWebsite1\\SampleWebsite1\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\haibi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "FSharp.Core": {
+            "target": "Package",
+            "version": "[4.7.0, )",
+            "generatePathProperty": true
+          },
+          "Suave": {
+            "target": "Package",
+            "version": "[2.5.6, )",
+            "generatePathProperty": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
